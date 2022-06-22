@@ -50,6 +50,54 @@ body {
 
 /*  HERO STYLING  */
 
+section.hero {
+    background-color: #1f2937;
+    height: 450px;
+}
+
 .hero .container {
-    
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.hero .hero-text {
+    max-width: 40%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.hero .sign-up {
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.hero .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+    color: #E5E7EB;
+    width: 500px;
+    max-width: 500px;
+    height: 250px;
+    border-radius: 15px;
 }
