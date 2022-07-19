@@ -101,3 +101,59 @@ section.hero {
     height: 250px;
     border-radius: 15px;
 }
+
+/* INFO STYLING */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+}
+
+.info .container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 1050px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h2 {
+    margin: 0 auto;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+.info-container {
+    width: 175px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-container p {
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.info-container .info-box {
+    border: solid 3px #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.info-box .info-text {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+/*
