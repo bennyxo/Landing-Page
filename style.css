@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,900;1,300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -118,6 +118,7 @@ section.hero {
     width: 1050px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .info h2 {
@@ -135,6 +136,7 @@ section.hero {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .info-container p {
@@ -156,4 +158,29 @@ section.hero {
     color: #1F2937;
 }
 
-/*
+/* QUOTE SECTION */
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .container {
+    display: flex;
+    width: 780px;
+    flex-direction: column;
+    margin: 150px auto;
+}
+
+.quote .container .quoteText {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 50;
+    color: #1F2937;
+}
+
+.quote .container .author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 50px;
+}
