@@ -184,3 +184,64 @@ section.hero {
     text-align: right;
     padding-right: 50px;
 }
+
+/* CALL TO ACTION SECTION */
+
+.callToAction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.callToAction .container {
+    display: flex;
+    width: 1050px;
+}
+
+.callToAction .container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 850px;
+    height: 140px;
+    padding: 0 75px;
+}
+
+.callToAction .container .left {
+    flex: 2 1 0%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    justify-content: center;
+}
+
+.callToAction .container .left h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.callToAction .container .left p {
+    font-size: 18px;
+    font-weight: 50;
+    color: #F9FAF8;
+}
+
+.callToAction .container .right {
+    display: flex;
+    width: 275px;
+    align-items: center;
+    justify-content: center;
+}
+
+.callToAction .container .right .signup {
+    background-color: #3882F6;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
