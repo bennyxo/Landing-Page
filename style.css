@@ -245,3 +245,18 @@ section.hero {
     border-radius: 10px;
     cursor: pointer;
 }
+
+/* FOOTER */
+
+footer .container {
+    display: flex;
+    height: 90px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
